@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+body {
+    background: #F7F9FC;
+    color: #575F7D;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+h1 {
+    color: #284B63;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #ACF39D;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+h2 {
+    color: #284B63;
+    font-size: 20px;
+    font-weight: lighter;
+    font-weight: 500;
+}
+
+a:hover {
+  color: rgba(107, 114, 225, 0.5);
+}
+
+
+@media (max-width: 2560px) {
+  .container {
+    width: 700px;
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+    margin: 20px auto;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+    margin: 20px auto;
+  }
+}
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 1px 1px 6px 0px rgba(50,50,50,0.3);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 40px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-blue {
+  background: #ACF39D;
+  color: #284B63;
+  padding: 15px 20px;
+  border-radius: 4px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.btn-blue:hover {
+  background: #DEEFB7;
+}
